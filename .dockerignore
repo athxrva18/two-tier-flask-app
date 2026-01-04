@@ -1,0 +1,16 @@
+# Ignore MySQL volume data
+mysql-data/
+
+# Git files
+.git
+.gitignore
+
+# Jenkins & CI files
+Jenkinsfile
+
+# Compose files (not needed for image build)
+docker-compose.yml
+
+# Python cache
+__pycache__/
+*.pyc
