@@ -54,7 +54,7 @@ post{
             emailext from: 'atharva.deshmukh1804@gmail.com',
             to:'atharva.deshmukh1804@gmail.com',
             body: 'build success for demo CI-CD app',
-            subject : 'jenkins build success'
+            subject : 'Jenkins build success'
         }
     }
     failure{
@@ -62,7 +62,7 @@ post{
             emailext from: 'atharva.deshmukh1804@gmail.com',
             to:'atharva.deshmukh1804@gmail.com',
             body: 'build failed for demo CI-CD app',
-            subject : 'jenkins build failed'
+            subject : 'Jenkins build failed'
         }
     }
 }
